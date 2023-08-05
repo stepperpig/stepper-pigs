@@ -1,24 +1,24 @@
 @font-face {
 	font-family: 'Piazzolla';
-	src: url('../fonts/Piazzolla-Regular.ttf') format('truetype');
+	src: url('fonts/Piazzolla-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Piazzolla';
-	src: url('../fonts/Piazzolla-Italic.ttf') format('truetype');
+	src: url('fonts/Piazzolla-Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Piazzolla';
-	src: url('../fonts/Piazzolla-Bold.ttf') format('truetype');
+	src: url('fonts/Piazzolla-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Piazzolla';
-	src: url('..//Piazzolla-BoldItalic.ttf') format('truetype');
+	src: url('fonts/Piazzolla-BoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
