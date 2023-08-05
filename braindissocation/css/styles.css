@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'Piazzolla';
+	src: url('../fonts/Piazzolla-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Piazzolla';
+	src: url('../fonts/Piazzolla-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Piazzolla';
+	src: url('../fonts/Piazzolla-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Piazzolla';
+	src: url('..//Piazzolla-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* ---------------------------------------------------------
+   HTML5 Bones
+   This stylesheet contains print styling and a section for 
+   you to simply add your own. This is a basic template 
+   after all.
+   ---------------------------------------------------------*/
+    body {
+   
+    }
+    /* Default link styling */
+    a:link { color: #0053b8; }
+    a:visited { color:#0002fb; }
+    a:hover, a:focus { color:#000; }
+    a:active { color:#000e02; }
+    
+    
+    
+/* ---------------------------------------------------------
+   Author's styles
+   ---------------------------------------------------------*/
+    body {
+        max-width: 45rem;
+        margin: 0 auto;
+        padding: 0.25em;
+        font-family: serif;
+        font-family: Piazzolla, serif;
+        font-size: 16pt;
+    }
+    h2, h3, h4 {
+        padding-top: 0.5em;
+    }
+    footer {
+        padding-bottom: 2rem;
+    }
+
+
+    
+/* ---------------------------------------------------------
+   Print styles
+   ---------------------------------------------------------*/
+@media print {
+    * {
+        color:#000 !important;
+        box-shadow:none !important;
+        text-shadow:none !important;
+        background:transparent !important;
+    }
+    html { background-color:#fff; }
+    /* Hide navigation */
+    nav { display:none; }
+
+    /* Show link destinations in brackets after the link text */
+    a[href]:after { content: " (" attr(href) ") "; }
+    a[href] {
+        font-weight:bold;
+        text-decoration:underline;
+        color:#06c;
+        border:none;
+    }
+    /* Don't show link destinations for JavaScript or internal links */ 
+    a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+    
+    /* Show abbr title value in brackets after the text */
+    abbr[title]:after { content: " (" attr(title) ")"; }
+
+    figure { 
+        margin-bottom:1em; 
+        overflow:hidden;
+    }
+
+    figure img { border:1px solid #000; }
+}
